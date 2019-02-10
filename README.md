@@ -4,7 +4,7 @@ Code and visualisation examples.
 
 ## Code
 
-- [Code snippet from a **current project**](code/drugbank2dfr.R) 
+- [Code snippet from a **current project**](code/run-gaston-model.R) 
 - [R-file](code/power_calc.R) to calculate **power** for a set of SNPs.
 - [R-file](https://github.com/sinarueeger/map-1000genomes/blob/master/map-1000genomes-populations.R) to produce a [**map**](https://github.com/sinarueeger/map-1000genomes/blob/master/map-1000genomes-populations.png) (png and html) that shows the 1000 genomes populations.
 - [GWAS.utils package](https://github.com/sinarueeger/GWAS.utils) is a simple **R-package** with a few functions and two datasets.
