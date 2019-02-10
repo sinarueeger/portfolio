@@ -14,7 +14,7 @@ Code and visualisation examples.
 
 A selection of visualisations is grouped into two categories:
 
-- [Infographics](infoviz/): illustrating a concept.
-- [Data visualisations](dataviz/): illustrating data.
+- [Infographics](visualisations/infoviz/): illustrating a concept.
+- [Data visualisations](visualisations/dataviz/): illustrating data.
 
 Additionally, you can scroll through my [theses](theses/) or the [PhD defense slides](https://sinarueeger.github.io/publicdefense/slides#1).
