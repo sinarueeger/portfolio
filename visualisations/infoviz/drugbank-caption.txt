@@ -1,0 +1,4 @@
+Combining MR and drugbank info into a score matrix: 
+These two datasets are a schematic illustration of the MR results (LSH-top) and the drugbank database (LHS-bottom). For any trait-drug combination, I calculated a score (RHS). As an example, we can calculate the overlap of the gene targets of drug DB001 and the gene-trait association of trait T1: Drug DB001 has gene A, B, C as gene targets. These genes have -log10(P)-values of 1, 8 and 20. We can distil this info into a score (e.g. sum of the -log10(P)-values).
+
+(Figure from PhD thesis)

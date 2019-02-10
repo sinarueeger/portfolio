@@ -1,0 +1,8 @@
+Different types of pleiotropy:
+When association signals of multiple phenotypes colocolise, this can have many reasons: (A) Spurious pleiotropy: A GWAS variant (black dot) tags two other variants: one (orange) that is linked to trait I and one (red), that is linked to trait II. 
+(B) Mediated pleiotropy: The causal variant affects trait II through trait I. This type of pleiotropy can be detected through MR and genetic correlation.
+(C) Biological pleiotropy: the causal variant affects two traits through independent pathways. 
+(D) Pleiotropy through confounding: genetic correlation is introduced by common confounder. 
+(B) and (D): will display genetic correlation on a genome-wide level, (A) and (D): will display pleiotropy at a locus level.
+
+(Figure from PhD thesis)

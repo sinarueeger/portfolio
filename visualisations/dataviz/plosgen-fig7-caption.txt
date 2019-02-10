@@ -1,0 +1,4 @@
+FPR versus power:
+This figure compares the false positive rate (FPR) (x-axis) versus the power (y-axis) for genotype imputation (blue) and summary statistics imputation (green) for different significance thresholds (α), including a 95%-confidence interval in both directions (vertically as a ribbon and horizontally as lines). The vertical, dashed line represents FPR = 0.05. Results are grouped according to MAF (columns) and imputation quality (rows) categories.
+
+(Figure from Plosgen: https://doi.org/10.1371/journal.pgen.1007371.g007)

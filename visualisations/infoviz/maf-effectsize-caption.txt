@@ -1,0 +1,4 @@
+Allele frequency versus penetrance: 
+This figure is a schematic representation of the (proposed) relationship between allele frequency and penetrance (or effect size). Most GWAS findings so far have been within the black arch ranging from low-MAF-high-effect-size to high- MAF-low-effect-size. In order to detect genetic variants residing in the lower left triangle, sample size must be large for two reasons. Firstly, to observe rare variants in a set of individuals, and secondly, to have large enough power to estimate low effect sizes.
+
+(Figure from PhD thesis)

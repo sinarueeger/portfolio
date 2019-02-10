@@ -1,0 +1,2 @@
+Concordance between direct conditional effect sizes using UK Biobank (x-axis) and conditional analysis performed using a combination of imputation-based methodology and approximate conditional analysis (y-axis). Each point refers to a SNP (implicated in human height). 95%-confidence intervals are visualised with horizontal and vertical lines around each point. Color refers to imputation quality (using summary statistic imputation), the dotted line is the identity line.  
+

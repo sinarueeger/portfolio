@@ -1,0 +1,5 @@
+Comparing w determined by different methods. 
+This figure compares the weights chosen by all three optimisation methods for population specific variants: w∗ as best possible weight (black), w_VM by variance matching (green), and w_AM by Adapt-Mix (blue). w∗ represents the benchmark weight: the best possible choice if we were to know the true effect size, but given the same reference panel as for Adapt-Mix and variance matching. The x-axis displays the weights for the reference panel chosen by each method, and the y-axis shows the density. The results are split into columns and rows, with the rows for different reference panel sizes and the columns different Finnish fractions in the GWAS populations (also highlighted with the vertical dashed line). Each window contains w∗, w_VM and w_AM for each of the 74 regions.
+
+
+(Figure 2 from https://www.biorxiv.org/content/10.1101/203927v3)

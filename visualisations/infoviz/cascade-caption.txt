@@ -1,0 +1,5 @@
+Central dogma and biological cascade: 
+This illustration shows how the central dogma of molecular biology fits into a the (hypothetical) biological cascade. DNA information flows within DNA, or from DNA to proteins through RNA. The downstream effect of genetic variation therefore affects everything from RNA onwards. Environmental changes (everything that is not genetic) do
+not impact genetic variation (unless radiation occurs), but affect molecular, intermediate and more distant phenotypes. Any phenotype to the right can also loop back into molecular or intermediate phenotypes. Height, illustrated with a human body, is assumed to be very distal from the genome, involving many biological processes to act on, and therefore highly polygenic.
+
+(Figure from PhD thesis)
