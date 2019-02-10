@@ -8,7 +8,7 @@ Code and visualisation examples.
 - [R-file](code/power_calc.R) to calculate power for a set of SNPs.
 - [R-file] to produce a **map** that contains the 1000 genomes populations](https://github.com/sinarueeger/map-1000genomes)
 - [GWAS.utils package](https://github.com/sinarueeger/GWAS.utils) is a simple **R-package** with a few functions and two datasets.
-- [Code snippet](code/drugbank2dfr.R) to turn [drugbank](https://www.drugbank.ca/) data into a dataframe.
+- [Code snippet](code/drugbank2dfr.R) to turn the [drugbank](https://www.drugbank.ca/) xml data into a data frame in R.
 
 ## Visualisations
 
