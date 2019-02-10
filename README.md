@@ -4,7 +4,7 @@ Code and visualisation examples.
 
 ## Code
 
-- Pipeline part from a [**current project**](code/run-gaston-model.R).
+- Pipeline section from a [**current project**](code/run-gaston-model.R).
 - [R code](code/power-calc.R) to calculate **power** for a set of SNPs.
 - [R code](https://github.com/sinarueeger/map-1000genomes/blob/master/map-1000genomes-populations.R) to produce a [**map**](https://github.com/sinarueeger/map-1000genomes/blob/master/map-1000genomes-populations.png) (png and html) that shows 1000 genomes populations.
 - [GWAS.utils package](https://github.com/sinarueeger/GWAS.utils) is an **R-package** with a few functions and two datasets.
