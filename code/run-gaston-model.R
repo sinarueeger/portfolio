@@ -1,8 +1,7 @@
 ############################################################################
 ############################################################################
 ###                                                                      ###
-###                           G2G-EBV ANALYSIS                           ###
-###                             USING GASTON                             ###
+###                  GWAS ANALYSIS USING GASTON                         ###
 ###                                                                      ###
 ############################################################################
 ############################################################################
@@ -21,7 +20,7 @@
 
 ## some default args that will be overwritten in the next line, but 
 ## are here for direct execution of the file when debugging
-args <- c("/home/rueger/G2G-EBV/data/0_raw/pathogen/results_max3_bwa_mem_hiv_18/NC_009334_with_t1_alts_aa_variant_matrix.binary.dat", 
+args <- c("some-path-to-datafile.dat", 
           "lmm", "t1", 4, "forreal")
 
 ## this reads the arguments from the bash-make-like file
@@ -200,7 +199,7 @@ data_pathogen_grm <-
 source(glue::glue("{DIR_SRC}/prep-covar.R"))
 
 file_clinical <-
-  glue::glue("{DIR_COVAR}/EBVG2G.covar")
+  glue::glue("{DIR_COVAR}/data-covar.covar")
 ## this file still has all the PCs in from older data. do not use!!!
 ## our PCs will be generated later.
 
@@ -297,19 +296,18 @@ rm(list = c("data_pathogen_raw", "data_pathogen_grm"))
 ##                            7. LMM                            --
 ##----------------------------------------------------------------
 
-## here we run the actual G2G analysis
+## here we run the actual analysis
 ## important: make sure that all datasets have synchronised ids
 ## 
-## the function run_g2g_analysis has several arguments that define 
+## the function run_analysis has several arguments that define 
 ## what kind of data are used (data_rhs, data_outcome, data_covar), 
 ## what kind of model should be used (model_method)
 ## what kind of GRM should be used (grm_rhs, grm_outcome)
 ## what kind of strings shoudl be inherited(str_covar, str_outcome, str_id)
 ## what the results should look like (str_write, return, dir_out)
 
-source(glue::glue("{DIR_SRC}/run-g2g.R"))
+source(glue::glue("{DIR_SRC}/run-model.R"))
 
-## G2G model
 ## using multicores:
 ## - furrr did not work
 ## - future did not work
@@ -319,7 +317,7 @@ source(glue::glue("{DIR_SRC}/run-g2g.R"))
 ## through the function gaston.utils::association.test.parallel.
 
 for (k in 1:length(outcome)) {
-    run_g2g_analysis(
+    run_analysis(
     data_rhs = data_host,
     data_outcome = data_pathogen$data[, c("id", outcome[k])],
     data_covar = data_covar,
